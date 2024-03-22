@@ -1,0 +1,38 @@
+Title: Auto File Templates
+
+----
+
+Text: 
+
+----
+
+Repository: https://github.com/presprog/kirby-auto-file-templates
+
+----
+
+Category: media
+
+----
+
+Subcategory: files
+
+----
+
+Description: Automatically assign file templates after upload based on file type. Works out-of-the-box, but is highly configurable, too.
+
+----
+
+Example:
+
+```php
+$config = [
+  'presprog.auto-file-templates' => [
+  'autoAssign' => [
+    'image' => 'my-image' // automatically assigns template `my-image` to all images 
+  ],
+];
+```
+
+----
+
+Versions: 4
